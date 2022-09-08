@@ -12,14 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     @IBAction func shakeButtonPressed(_ sender: UIButton) {
-        
+        imageView.image = UIImage(named: "ball3")
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
 
 }
 
