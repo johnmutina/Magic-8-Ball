@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     @IBAction func shakeButtonPressed(_ sender: UIButton) {
-        imageView.image = UIImage(named: "ball3")
+        let randomNum = Int.random(in: 1...5)
+        imageView.image = UIImage(named: "ball\(randomNum)")
     }
 
 }
